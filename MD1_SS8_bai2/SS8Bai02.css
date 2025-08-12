@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container>div{
+    background-color: red;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.container .child{
+    width: calc(25% - 20px);
+}
+@media (min-width: 768px) and (max-width: 1024px){
+   .container .child{
+        width: calc(50% - 20px);
+    }
+}
+@media (max-width: 768px) {
+    .container .child{
+        width:calc(100% - 20px);
+    }
+}
