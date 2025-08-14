@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------header---------------- */
+header {
+    border: 1px solid rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logopage {
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+li>img {
+    width: 30px;
+    border-radius: 50%;
+    height: 25px;
+}
+
+header li:nth-child(3) {
+    border-right: 1px solid darkgrey;
+}
+
+/*------------------- main--------------------- */
+
+main {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+
+}
+/* ---------aside-left-------------- */
+
+.aside-left {
+    width: calc(50% - 10px);
+}
+
+.aside-right {
+    width: calc(50% - 10px);
+}
+
+.nav-header {
+    padding-top: 30px;
+}
+
+.nav-header ul {
+    display: flex;
+}
+
+main ul li {
+    list-style-type: none;
+}
+
+main li:nth-child(4) {
+    opacity: 0.5;
+}
+
+.yourtour {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+
+}
+
+.info-tour {
+    background: #b8b5b5;
+    border-radius: 10px;
+    padding: 5px 150px 5px 10px;
+    width: calc(40% - 10px);
+
+}
+
+.info-tour span {
+    opacity: 0.5;
+}
+
+.info-pass {
+    background: #b8b5b5;
+    border-radius: 10px;
+    padding: 5px 150px 5px 10px;
+    width: calc(40% - 10px);
+
+}
+
+.info-pass span {
+    opacity: 0.5;
+}
+
+.form-card input {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.cardnum input {
+    width: calc(40% - 20px);
+}
+
+button[type="submit"] {
+    background-color: #3366ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+/*----------aside-right------------*/
+
+.aside-right {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+
+    padding: 24px;
+    width: 400px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.info-time {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.child:nth-child(1) {
+    padding: 10px 20px;
+    border-top: 1px solid black;
+
+}
+
+.child:nth-child(2) {
+    padding: 10px;
+    border-left: 1px solid black;
+
+}
+
+.booking-box h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.line-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.line-item.total {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-link a {
+    color: #999;
+    text-decoration: none;
+    font-size: 13px;
+}
+/* ----------------section------------------- */
+section{
+    margin: 30px;
+   
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+
+
+.info-container{
+    display: flex;
+    position: absolute;
+    top:40%;
+    left: 100px;
+
+}
+.noidung1{ 
+    padding: 0 100px;
+    color: white; 
+}
+.noidung2 {
+    width: 280px;
+    height: 50px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    border-radius: 3px;
+}
+.noidung2 p{
+    opacity: 0.5;
+}
+.noidung2 button {
+    margin-left: 74px;
+    background-color: #171921;
+    color: white;
+}
+/* -------------- footer --------------------*/
+footer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.foot{
+    width:calc(20%);
+}
+
+footer p {
+    opacity: 0.5;
+    margin: 5px 0;
+}
